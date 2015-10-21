@@ -1,0 +1,116 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #683BAF; }
+
+p,
+body .main_footer,
+.s_about {
+  color: #48514A; }
+
+.main_footer {
+  letter-spacing: 0px; }
+
+.color_element {
+  color: #683BAF; }
+
+.color_bg {
+  background-color: #683BAF; }
+
+.color_border {
+  border-color: #683BAF; }
+
+.main_color_bg {
+  background-color: #222; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+
+.top_menu li:hover a {
+  color: #683BAF; }
+  .top_menu li:hover a a {
+    letter-spacing: 3px; }
+
+.top_text p {
+  color: #fff;
+  letter-spacing: 5px; }
+
+.s_descr {
+  letter-spacing: 5px; }
+  .s_descr::after {
+    background-color: #222; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #48514A; }
+
+.s_about p:nth-child(odd) {
+  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(1%, #0a0a1a), color-stop(29%, #300095), color-stop(50%, #7db0e1), color-stop(82%, #23005a));
+  background: -webkit-linear-gradient(-45deg, #0a0a1a 1%, #300095 29%, #7db0e1 50%, #23005a 82%);
+  background: -o-linear-gradient(-45deg, #0a0a1a 1%, #300095 29%, #7db0e1 50%, #23005a 82%);
+  background: -ms-linear-gradient(-45deg, #0a0a1a 1%, #300095 29%, #7db0e1 50%, #23005a 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a1a', endColorstr='#23005a',GradientType=1 );
+  -webkit-background-clip: text;
+  color: #683BAF; }
+
+.personal_header {
+  letter-spacing: 2px; }
+
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 1px; }
+
+.year {
+  background-color: #683BAF;
+  color: #ffffff;
+  letter-spacing: 1px; }
+
+.resume_icon {
+  color: #222; }
+
+.s_portfolio li {
+  color: #48514A;
+  letter-spacing: 2px; }
+  .s_portfolio li.active {
+    color: #fff;
+    border-bottom: 1px solid #683BAF; }
+
+.contacts_icon {
+  color: #683BAF; }
+
+.contacts_description {
+  color: #222; }
+
+.portfolio_item .img_item a {
+  border-color: #683BAF;
+  color: #683BAF; }
+
+.text-danger {
+  color: #683BAF; }
+
+.main_form input:focus,
+.main_form textarea:focus {
+  border: 1px solid #683BAF; }
+.main_form input,
+.main_form textarea {
+  letter-spacing: 2px; }
+.main_form button {
+  background-color: #683BAF;
+  letter-spacing: 2px; }
+.main_form .form-group {
+  letter-spacing: 2px;
+  color: #48514A; }
+
+.arrow_top svg:hover polygon {
+  fill: #683BAF; }
+
+/*# sourceMappingURL=space.css.map */

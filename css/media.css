@@ -1,0 +1,96 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main_head .arrow {
+				left: 47.5%;
+		}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.person_last {
+		margin-top: 35px;
+	}
+	.main_head .arrow {
+				left: 47%;
+		}
+
+	.portfolio_descr {
+		max-width: 70%;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.main_head .arrow {
+				background: none;
+		}
+	.resume_container h3 {
+		margin-bottom: 10px;
+	}
+	.resume_container .resume_icon {
+		margin-bottom: 10px;
+	}
+
+	.s_descr_wrap .s_descr{
+		margin-bottom: 70px;
+	}
+	
+	.portfolio_descr {
+		max-width: 80%;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_wrapper .top_text h1 {
+			font-size: 2em;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	.main_footer .social_wrap {
+		float: left;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.main_footer .social_wrap ul {
+		padding-left: 0;
+	}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

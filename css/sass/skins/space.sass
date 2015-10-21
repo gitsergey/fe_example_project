@@ -1,0 +1,127 @@
+@import "../bourbon/bourbon"
+
+$color: #683BAF //Theme skin
+$text_color: #48514A
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $color
+
+p,
+body .main_footer,
+.s_about
+	color: $text_color
+
+.main_footer
+	+kerning(0)
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+
+.main_color_bg
+	background-color: $main_color
+
+.bg_light
+	background-color: $bg_light
+.bg_dark
+	background-color: $main_color
+	color: #fff
+	.s_descr::after
+		background-color: #fff
+
+.top_menu
+	li:hover a
+		color: $color
+		
+		a
+			+kerning(3)
+.top_text
+	p
+		color: #fff
+		+kerning(5)
+
+.s_descr
+	+kerning(5)
+	&::after
+		background-color: $main_color
+
+section
+	h3
+		+kerning(3)
+		color: $text_color
+
+.s_about
+	p:nth-child(odd)
+		//background: #0a0a1a /* Old browsers */
+		-webkit-text-fill-color: transparent
+		//background: -moz-linear-gradient(-45deg, #0a0a1a 1%, #300095 29%, #7db0e1 50%, #23005a 82%) /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right bottom, color-stop(1%,#0a0a1a), color-stop(29%,#300095), color-stop(50%,#7db0e1), color-stop(82%,#23005a)) /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(-45deg, #0a0a1a 1%,#300095 29%,#7db0e1 50%,#23005a 82%) /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(-45deg, #0a0a1a 1%,#300095 29%,#7db0e1 50%,#23005a 82%)/* Opera 11.10+ */
+		background: -ms-linear-gradient(-45deg, #0a0a1a 1%,#300095 29%,#7db0e1 50%,#23005a 82%)/* IE10+ */
+		//background: linear-gradient(135deg, #0a0a1a 1%,#300095 29%,#7db0e1 50%,#23005a 82%) /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a1a', endColorstr='#23005a',GradientType=1 )/* IE6-9 fallback on horizontal gradient */	
+		-webkit-background-clip: text
+		color: $color												
+.personal_header
+	+kerning(2)
+
+.resume_container
+	h3
+		color: $main_color
+		+kerning(1)
+.year
+	background-color: $color
+	color: #ffffff
+	+kerning(1)
+.resume_icon
+	color: $main_color
+.s_portfolio
+	li
+		color: $text_color
+		+kerning(2)
+		&.active
+			color: #fff
+			border-bottom: 1px solid $color
+.contacts_icon
+	color: $color
+.contacts_description
+	color: $main_color
+.portfolio_item .img_item
+	a
+		border-color: $color
+		color: $color
+
+.text-danger
+	color: $color
+.main_form
+	input:focus,
+	textarea:focus
+		border: 1px solid $color
+	input,
+	textarea
+		+kerning(2)
+	button
+		background-color: $color
+		+kerning(2)
+	.form-group
+		+kerning(2)
+		color: $text_color
+
+
+.arrow_top
+	svg:hover
+		polygon
+			fill: $color

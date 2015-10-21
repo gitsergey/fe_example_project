@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<svg width="200" height="201" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="203" width="202" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse transform="rotate(1 100.34847259521277,100.50000762939398) " filter="url(#svg_2_blur)" ry="95" rx="95" id="svg_2" cy="100.500006" cx="100.348471" stroke-width="7.5" stroke="#fff" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_4" y2="163" x2="99.5" y1="42" x1="99.5" stroke-width="7.5" stroke="#fcfcf9" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="129" x2="133.5" y1="161" x1="100.5" stroke-width="7.5" stroke="#fff" fill="none"/>
+  <line transform="rotate(-90 82.00000000000004,144.00000000000003) " stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="128" x2="98.5" y1="160" x1="65.5" stroke-width="7.5" stroke="#fff" fill="none"/>
+ </g>
+</svg>
